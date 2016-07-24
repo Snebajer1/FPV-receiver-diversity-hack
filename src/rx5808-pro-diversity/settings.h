@@ -29,8 +29,8 @@ SOFTWARE.
 
 // Choose the display you will be using
 // you will also have to uncomment the includes in the main project.
-//#define TVOUT_SCREENS
-#define OLED_128x64_ADAFRUIT_SCREENS
+#define TVOUT_SCREENS
+//#define OLED_128x64_ADAFRUIT_SCREENS
 
 // use the library from https://github.com/badzz/Adafruit_SH1106 before enabling
 //#define SH1106
@@ -40,11 +40,11 @@ SOFTWARE.
 
 // this will be displayed on the screensaver.
 // Up to 10 letters
-#define CALL_SIGN "CALL SIGN"
+#define CALL_SIGN "RX5808-JWR"
 
 // Feature Togglels
-#define USE_DIVERSITY
-#define USE_IR_EMITTER
+//#define USE_DIVERSITY
+//#define USE_IR_EMITTER
 //#define USE_FLIP_SCREEN
 #define USE_BOOT_LOGO
 
