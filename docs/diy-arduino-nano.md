@@ -23,6 +23,7 @@ You can comment out the following line to remove the diversity menu from the GUI
 
 ####BOM
 - 4x 1k resistor
+- 1x 100k resistor
 - 1x 470 resistor
 - 1x 330 resistor (optional)
 - 1x rx5808 receiver with [spi mod](rx5808-spi-mod.md)
