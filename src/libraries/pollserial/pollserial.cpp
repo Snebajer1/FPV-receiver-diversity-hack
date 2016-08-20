@@ -19,8 +19,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
   
   Modified 23 November 2006 by David A. Mellis
-  
   Modified July 2010 by Myles D. Metzler
+  Modified Aug 2013 by Tony Henrique
 */
 
 #include <avr/io.h>
@@ -128,7 +128,7 @@ void pollserial::flush() {
 	rxbuffer.head = rxbuffer.tail;
 }
 
-void pollserial::write(uint8_t c) {
+size_t pollserial::write(uint8_t c) { //void pollserial::write(uint8_t c) {
 #if defined ( UDR0 )
 	while (!((UCSR0A) & _BV(UDRE0)));
 	UDR0 = c;
@@ -136,4 +136,5 @@ void pollserial::write(uint8_t c) {
 	while (!((UCSRA) & _BV(UDRE)));
 	UDR = c;
 #endif
+	return c;
 }
