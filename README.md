@@ -32,14 +32,13 @@ Donations help show the developer your appreciation for all their hard work. A l
 - **Save channel** - Startup with last saved channel
 - **Beeper** - Acustic feedback on important actions
 - **Save RSSI range** - RSSI voltage may vary per part
-- *(NEW)* **Quick Save** - From any home press and hold select for 1 second.
-- *(NEW)* **Diversity** - Receiver select and monitor.
-- *(NEW)* **Led Status** - Power, button pressed, active antenna.
-- *(NEW)* **Race Band** - Added band C/Immersion Race for a total of 40 supported channels.
-- *(NEW)* **Backward Compatibility** - Use this code with your existing setup.
-- *(NEW)* **OLED Version** - Use a 128x64 OLED Display instead of TV_OUT.
-- *(NEW)* **Setup Menu** - Creating menu for toggling settings.
-- *(REMOVED)* ~~**DIP mode** - Set channel by extern DIP switch~~
+- **Quick Save** - From any home press and hold select for 1 second.
+- **Diversity** - Receiver select and monitor.
+- **Led Status** - Power, button pressed, active antenna.
+- **Race Band** - Added band C/Immersion Race for a total of 40 supported channels.
+- **Backward Compatibility** - Use this code with your existing setup.
+- **OLED Version** - Use a 128x64 OLED Display instead of TV_OUT.
+- **Setup Menu** - Creating menu for toggling settings.
 
 ##Usage
 ####Screens
